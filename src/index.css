@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Flexo-Demi";
+  src: url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.eot");
+  src: url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.svg#Flexo-Demi")
+      format("svg");
+}
+
+body {
+  font-family: "Flexo-Demi", arial, sans-serif;
+}
+
+.bg-grass {
+  background-color: red;
+}
+
 .background-red {
   background-color: red;
 }

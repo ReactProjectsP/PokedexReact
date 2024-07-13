@@ -27,9 +27,8 @@ export function Homepage() {
         <img src={PokedexLogo} alt="Pokedex Logo" />
       </header>
       <section className="flex">
-        <Filter></Filter>
-        <main className="mx-10 w-full">
-          <section className="grid grid-cols-3 gap-[20px] place-items-center w-[85.49%]">
+        <main className="max-w-[1280px] m-auto">
+          <ul className="grid grid-cols-4 gap-[20px] m-auto w-[85.49%]">
             {data.map((pokemon: any, index: any) => {
               return (
                 <PokemonCard
@@ -37,12 +36,7 @@ export function Homepage() {
                   key={index}></PokemonCard>
               )
             })}
-          </section>
-          <div className="w-full text-end my-[5rem]">
-            <a className="mr-[7rem] cursor-pointer" onClick={nextPokemons}>
-              Siguiente
-            </a>
-          </div>
+          </ul>
         </main>
       </section>
 
