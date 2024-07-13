@@ -29,7 +29,7 @@ export function Homepage() {
       <section className="flex">
         <Filter></Filter>
         <main className="mx-10 w-full">
-          <section className="grid grid-cols-3 gap-[20px] place-items-center">
+          <section className="grid grid-cols-3 gap-[20px] place-items-center w-[85.49%]">
             {data.map((pokemon: any, index: any) => {
               return (
                 <PokemonCard
