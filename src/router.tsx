@@ -1,9 +1,15 @@
 import {createBrowserRouter} from "react-router-dom"
-import {Homepage} from "./application/pages/homepage"
+import {PokemonDetail} from "./application/pages/PokemonDetail"
+import {Homepage} from "./application/pages/Homepage"
+import React from "react"
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+  },
+  {
+    path: "/pokemon-detail/",
+    element: <PokemonDetail />,
   },
 ])
