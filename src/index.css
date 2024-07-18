@@ -28,3 +28,7 @@ body {
 .background-red {
   background-color: red;
 }
+
+.bg-homepage {
+  background-image: url("../src/assets/body_bg.png");
+}
